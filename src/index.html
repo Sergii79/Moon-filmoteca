@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Moon filmoteka</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/logo/logo-filmoteka4.png"
+      sizes="32x32"
+    />
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <p>Hello, Sergii!</p>
-    <include src="./partials/example.html"></include>
+    <div class="document__wrap">
+      <include src="./partials/home-header.html"></include>
+    </div>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

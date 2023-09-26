@@ -1,2 +1,12 @@
-@import './common';
-@import './example';
+//* 1. global settings
+@import './global_settings/normalize';
+@import './global_settings/fonts';
+@import './global_settings/global';
+@import './global_settings/variables';
+
+
+
+//* 2. components
+
+// partials
+@import './partials/home-header';
