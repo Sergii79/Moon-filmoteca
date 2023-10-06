@@ -4,9 +4,10 @@
 @import './global_settings/global';
 @import './global_settings/variables';
 
+//* 2. utils
+@import './utils/mixin';
 
-
-//* 2. components
+//* 3. components
 
 // partials
-@import './partials/home-header';
+@import './partials/header';
