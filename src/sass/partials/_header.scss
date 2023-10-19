@@ -1,22 +1,29 @@
 .header {
-  margin: 0 auto;
-  width: 100%;
   max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px 44px 20px;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.56),
+    rgba(0, 0, 0, 0.56)
+  );
   // background-repeat: no-repeat;
   // background-size: cover;
   // background-position: center;
   // margin-left: auto;
   // margin-right: auto;
   // background-color: $header-bg-color;
-  background: rgba(205, 214, 219, 0.3);
+  // background: rgba(205, 214, 219, 0.3);
 
   @include mobile {
-    padding: 40px 20px 44px 20px;
   }
 
   @include tablet {
     max-width: 768px;
     padding: 40px 32px 44px 32px;
+
     background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.56),
@@ -27,6 +34,12 @@
   @include desktop {
     max-width: 1280px;
     padding: 40px 32px 44px 32px;
+
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.56),
+      rgba(0, 0, 0, 0.56)
+    );
   }
 
   // @media screen and (max-width: 767px) {
