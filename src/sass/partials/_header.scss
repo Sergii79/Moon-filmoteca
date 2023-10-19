@@ -5,10 +5,11 @@
   padding: 40px 20px 44px 20px;
 
   background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.56),
-    rgba(0, 0, 0, 0.56)
-  );
+      to right,
+      rgba(0, 0, 0, 0.56),
+      rgba(0, 0, 0, 0.56)
+    ),
+    url('/src/images/heder/header-fone-mob-@1x.jpg');
   // background-repeat: no-repeat;
   // background-size: cover;
   // background-position: center;
@@ -25,10 +26,12 @@
     padding: 40px 32px 44px 32px;
 
     background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.56),
-      rgba(0, 0, 0, 0.56)
-    );
+        to right,
+        rgba(0, 0, 0, 0.56),
+        rgba(0, 0, 0, 0.56)
+      ),
+      url('/src/images/heder/header-fone-tab-@1x.jpg');
+    // background: url('/src/images/heder/header-fone-tab-@1x.jpg');
   }
 
   @include desktop {
@@ -36,10 +39,11 @@
     padding: 40px 32px 44px 32px;
 
     background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.56),
-      rgba(0, 0, 0, 0.56)
-    );
+        to right,
+        rgba(0, 0, 0, 0.56),
+        rgba(0, 0, 0, 0.56)
+      ),
+      url('/src/images/heder/header-fone-desk-@1x.jpg');
   }
 
   // @media screen and (max-width: 767px) {
