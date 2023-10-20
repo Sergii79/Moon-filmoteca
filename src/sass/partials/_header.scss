@@ -37,7 +37,7 @@
         rgba(0, 0, 0, 0.56)
       ),
       url('/src/images/heder/header-fone-tab-@1x.jpg');
-    // background: url('/src/images/heder/header-fone-tab-@1x.jpg');
+    background: url('/src/images/heder/header-fone-tab-@1x.jpg');
 
     @include retina {
       background-image: linear-gradient(
