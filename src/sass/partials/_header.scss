@@ -10,13 +10,13 @@
       rgba(0, 0, 0, 0.56)
     ),
     url('/src/images/heder/header-fone-mob-@1x.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // margin-left: auto;
+  // margin-right: auto;
   // background-color: $header-bg-color;
-  background: rgba(205, 214, 219, 0.3);
+  // background: rgba(205, 214, 219, 0.3);
 
   @include retina {
     background-image: linear-gradient(
