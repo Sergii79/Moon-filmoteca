@@ -50,35 +50,18 @@ body {
   display: flex;
   flex-direction: column;
 }
-.document__wrap {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.document__wrap main {
-  flex: 1 1 auto;
-}
+// .document__wrap {
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+// }
+// .document__wrap main {
+//   flex: 1 1 auto;
+// }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
   min-width: 320px;
-
-  // @include tablet {
-  //   padding-left: 32px;
-  //   padding-right: 32px;
-  // }
-  // @media screen and (min-width: #{$mobile}) {
-  //   width: $mobile;
-  // }
-  // @media screen and (min-width: #{$tablet}) {
-  //   width: $tablet;
-  //   padding-left: 32px;
-  //   padding-right: 32px;
-  // }
-  // @media screen and (min-width: #{$desktop}) {
-  //   width: $desktop;
-  // }
 }
