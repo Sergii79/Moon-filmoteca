@@ -1,21 +1,21 @@
 // variables
- :root {
-//   // --primary-text-color: #757575;
-//   // --title-text-color: #212121;
-   --accent-color: #ff6b08;
-   --primary-bg-color: #ffffff;
-//   // --secondary-bg-color: #2f303a;
-   --footer-bg-color: #f7f7f7;
-   --footer-text-color: #545454;
-//   // --icon-social-color: #afb1b8;
-//   // --primary-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-//   // --hero-gradient: linear-gradient(
-//   //   to right,
-//   //   rgba(47, 48, 58, 0.4),
-//   //   rgba(47, 48, 58, 0.4)
-//   // );
-    --accent-menu-color:#FF001B;
- }
+:root {
+  //   // --primary-text-color: #757575;
+  //   // --title-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-color: #ff6b08;
+  //   // --secondary-bg-color: #2f303a;
+  --footer-bg-color: #f7f7f7;
+  --footer-text-color: #545454;
+  //   // --icon-social-color: #afb1b8;
+  //   // --primary-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  //   // --hero-gradient: linear-gradient(
+  //   //   to right,
+  //   //   rgba(47, 48, 58, 0.4),
+  //   //   rgba(47, 48, 58, 0.4)
+  //   // );
+  --accent-menu-color: #ff001b;
+}
 $border-radius: 5px;
 
 //  COLORS \\
@@ -28,8 +28,7 @@ $accent-color: #ff6b01;
 $red-color: #ff001b;
 $hover-btn-color: #fec69e;
 $trending-switcher-text: #b4b4b4;
-$upper-btn-backg-color : #F8F8F8;
-
+$upper-btn-backg-color: #f8f8f8;
 
 $bezier-hov: cubic-bezier(0.12, 0.68, 0.82, 0.55);
 
@@ -44,7 +43,6 @@ $btn-hover-bg: rgba(255, 107, 1, 0.5);
 $filter-button-shadow: inset 2px 2px 2px #0000004d;
 $movie-card-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
 
-
 $animationTransition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 // FONTS\\
@@ -56,4 +54,3 @@ $min-tablet: 767px;
 $tablet: 768px;
 $min-desktop: 1279px;
 $desktop: 1280px;
-
