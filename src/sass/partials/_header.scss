@@ -94,7 +94,14 @@
     &-wrap {
       display: flex;
       align-items: center;
-      gap: 10px;
+
+      @include tablet {
+        gap: 8px;
+      }
+
+      @include desktop {
+        gap: 10px;
+      }
     }
   }
 
@@ -109,13 +116,51 @@
       }
     }
     &-svg {
-      // margin-right: 61px;
       fill: var(--white-text-color);
     }
   }
 
   &__list {
     display: flex;
-    gap: 40px;
+    gap: 20px;
+
+    @include tablet {
+      gap: 40px;
+    }
+
+    @include desktop {
+      gap: 50px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    // row-gap: 20px;
+    margin-top: 54px;
+
+    @include tablet {
+      margin-top: 40px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @include desktop {
+      margin-top: 45px;
+    }
+    &-wrap {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      position: relative;
+
+      @include tablet {
+        max-width: 336px;
+      }
+
+      @include desktop {
+        max-width: 393px;
+      }
+    }
   }
 }
