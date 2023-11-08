@@ -304,4 +304,46 @@
       }
     }
   }
+
+  &__filter {
+    margin-top: 60px;
+
+    &-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      @include tablet {
+        gap: 32px;
+      }
+
+      @include desktop {
+        gap: 40px;
+      }
+    }
+  }
+  &__button {
+    width: 130px;
+    height: 44px;
+
+    // border-radius: var(--md);
+    // border: 2px;
+    // border-color: var(--white-bg-color);
+    // background-color: transparent;
+
+    @include tablet {
+      width: 152px;
+    }
+
+    // &-text {
+    //   text-transform: uppercase;
+
+    //   font-weight: 500;
+    //   font-size: 12px;
+    //   line-height: calc(16 / 12);
+    //   text-align: center;
+
+    //   color: var(--white-text-color);
+    // }
+  }
 }
