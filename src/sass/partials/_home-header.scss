@@ -1,40 +1,24 @@
 .header {
   width: 100%;
-  padding-top: 40px;
-  padding-bottom: 44px;
+  margin: 0 auto;
+  opacity: 0.95;
+
+  max-width: 480px;
 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.56),
-      rgba(0, 0, 0, 0.56)
-    ),
-    url('/src/images/heder/header-fone-mob-@1x.jpg');
-
-  @include retina {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.56),
-        rgba(0, 0, 0, 0.56)
-      ),
-      url('/src/images/heder/header-fone-mob-@2x.jpg');
-  }
-
-  @include tablet {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+  &-home {
+    padding-top: 40px;
+    padding-bottom: 44px;
 
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.56),
         rgba(0, 0, 0, 0.56)
       ),
-      url('/src/images/heder/header-fone-tab-@1x.jpg');
-    background: url('/src/images/heder/header-fone-tab-@1x.jpg');
+      url('/src/images/heder/header-fone-mob-@1x.jpg');
 
     @include retina {
       background-image: linear-gradient(
@@ -42,21 +26,60 @@
           rgba(0, 0, 0, 0.56),
           rgba(0, 0, 0, 0.56)
         ),
-        url('/src/images/heder/header-fone-tab-@2x.jpg');
+        url('/src/images/heder/header-fone-mob-@2x.jpg');
+    }
+
+    @include tablet {
+      max-width: 768px;
+
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.56),
+          rgba(0, 0, 0, 0.56)
+        ),
+        url('/src/images/heder/header-fone-tab-@1x.jpg');
+
+      @include retina {
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.56),
+            rgba(0, 0, 0, 0.56)
+          ),
+          url('/src/images/heder/header-fone-tab-@2x.jpg');
+      }
+    }
+
+    @include desktop {
+      max-width: 1280px;
+
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.56),
+          rgba(0, 0, 0, 0.56)
+        ),
+        url('/src/images/heder/header-fone-desk-@1x.jpg');
+
+      @include retina {
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.56),
+            rgba(0, 0, 0, 0.56)
+          ),
+          url('/src/images/heder/header-fone-desk-@2x.jpg');
+      }
     }
   }
 
-  @include desktop {
-    max-width: 1280px;
-    padding-left: 32px;
-    padding-right: 32px;
+  &-library {
+    padding-top: 40px;
+    padding-bottom: 60px;
 
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.56),
         rgba(0, 0, 0, 0.56)
       ),
-      url('/src/images/heder/header-fone-desk-@1x.jpg');
+      url('/src/images/heder/header-library-fone-mob-@1x.jpg');
 
     @include retina {
       background-image: linear-gradient(
@@ -64,7 +87,46 @@
           rgba(0, 0, 0, 0.56),
           rgba(0, 0, 0, 0.56)
         ),
-        url('/src/images/heder/header-fone-desk-@2x.jpg');
+        url('/src/images/heder/header-library-fone-mob-@2x.png');
+    }
+    @include tablet {
+      max-width: 768px;
+
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.56),
+          rgba(0, 0, 0, 0.56)
+        ),
+        url('/src/images/heder/header-library-fone-tab-@1x.jpg');
+
+      @include retina {
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.56),
+            rgba(0, 0, 0, 0.56)
+          ),
+          url('/src/images/heder/header-library-fone-tab-@2x.jpg');
+      }
+    }
+
+    @include desktop {
+      max-width: 1280px;
+
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.56),
+          rgba(0, 0, 0, 0.56)
+        ),
+        url('/src/images/heder/header-library-fone-desk-@1x.jpg');
+
+      @include retina {
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.56),
+            rgba(0, 0, 0, 0.56)
+          ),
+          url('/src/images/heder//header-library-fone-desk-@2x.jpg');
+      }
     }
   }
 
