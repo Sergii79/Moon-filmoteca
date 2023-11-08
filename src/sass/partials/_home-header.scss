@@ -10,8 +10,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // background-color: #3d4179;
-  // background-image: url(/src/images/logo/film.svg);
 
   background-image: linear-gradient(
       to right,
@@ -116,8 +114,6 @@
   }
 
   &__list {
-    // position: relative;
-
     display: flex;
     gap: 20px;
 
