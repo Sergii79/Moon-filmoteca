@@ -1,66 +1,61 @@
-// footer
 .footer {
   background-color: var(--footer-bg-color);
-  //   height: 100px;
-  //   @include tablet {
-  //     height: 79px;
-  //   }
-  //   @include desktop {
-  //     height: 77px;
-  //   }
-}
 
-.footer__general {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  &__general {
+    padding-top: 28px;
+    padding-bottom: 28px;
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  text-align: center;
+    @include tablet {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
 
-  color: var(--footer-text-color);
-}
-
-.footer__text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  @include tablet {
-    flex-direction: row;
+  &__text {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+
+    color: var(--footer-text-color);
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
-  @include desktop {
-    justify-content: center;
+
+  &__first {
+    margin-bottom: 10px;
+
+    @include tablet {
+      margin-bottom: 0px;
+    }
   }
-}
 
-.footer__first {
-  margin-bottom: 10px;
-  @include tablet {
-    margin-bottom: 0px;
+  &__second {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+
+    &-hero {
+      display: flex;
+      gap: 3px;
+      align-items: center;
+
+      text-decoration: underline;
+      cursor: pointer;
+
+      &-color {
+        fill: var(--accent-color);
+      }
+    }
+
+    @include tablet {
+      margin-left: 3px;
+    }
   }
-}
-
-.footer__second {
-  display: flex;
-  gap: 10px;
-  @include tablet {
-    margin-left: 3px;
-  }
-}
-
-.footer__heart {
-  fill: var(--accent-color);
-}
-
-.modal__footer {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.footer__position {
-  min-height: calc(100vh - 70px);
 }
