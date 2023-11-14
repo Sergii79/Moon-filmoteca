@@ -13,6 +13,9 @@
     padding-top: 40px;
     padding-bottom: 44px;
 
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 1px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.56),
@@ -144,19 +147,27 @@
 
     &-wrap {
       display: flex;
+      flex-direction: row;
       align-items: center;
 
       @include tablet {
-        gap: 8px;
-      }
-
-      @include desktop {
-        gap: 10px;
+        gap: 15px;
       }
     }
   }
 
   &__logo {
+    &-link {
+      &:hover,
+      &:focus {
+        .header__logo-svg use,
+        .header__logo-name {
+          transform: scale(1.05);
+          color: var(--accent-color);
+          fill: var(--accent-color);
+        }
+      }
+    }
     &-name {
       display: none;
 
@@ -185,6 +196,12 @@
 
     &-item {
       position: relative;
+
+      &:hover,
+      &:focus {
+        transform: scale(1.1);
+        color: var(--accent-color);
+      }
     }
 
     &-current::after {

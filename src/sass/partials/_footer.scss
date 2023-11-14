@@ -52,6 +52,12 @@
       &-color {
         fill: var(--accent-color);
       }
+
+      &:hover,
+      &:focus {
+        transform: scale(1.1);
+        color: var(--accent-color);
+      }
     }
 
     @include tablet {
